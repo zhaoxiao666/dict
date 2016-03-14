@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
+var dict = ["name":"xiao","age":"21"]
+dict["sex"]="man"
+
+print(dict)
+print(dict["name"])
 
